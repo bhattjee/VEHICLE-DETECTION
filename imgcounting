@@ -1,0 +1,44 @@
+import cv2
+import numpy as np
+import requests
+from PIL import Image
+
+# Define the image URL
+image_url = 'https://image.cnbcfm.com/api/v1/image/106947859-GettyImages-167503543.jpg?v=1632760991.jpg'
+
+# Download, resize, and convert the image to NumPy array
+response = requests.get(image_url, stream=True).raw
+image = Image.open(response)
+image = image.resize((450, 250))
+image_arr = np.array(image)
+
+# Convert to grayscale
+gray = cv2.cvtColor(image_arr, cv2.COLOR_BGR2GRAY)
+
+# Apply Gaussian blur for noise reduction
+blur = cv2.GaussianBlur(gray, (5, 5), 0)
+
+# Apply dilation to enhance car features
+dilated = cv2.dilate(blur, np.ones((3, 3)))
+
+# Perform morphological closing to remove small holes and irregularities
+kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2, 2))
+closed = cv2.morphologyEx(dilated, cv2.MORPH_CLOSE, kernel)
+
+# Load the car cascade classifier (replace with your path)
+car_cascade_src = '/Users/SAMB/Downloads/cars.xml'  # Replace with your classifier path
+car_cascade = cv2.CascadeClassifier(car_cascade_src)
+
+# Detect cars using the classifier
+cars = car_cascade.detectMultiScale(closed, 1.1, 1)
+car_count = len(cars)  # Count the number of detected cars
+
+# Draw rectangles around the detected cars
+for (x, y, w, h) in cars:
+    cv2.rectangle(image_arr, (x, y), (x + w, y + h), (255, 0, 0), 2)
+
+# Print car count and display the final image
+print(f"{car_count} cars found")
+cv2.imshow('Car Detection', image_arr)
+cv2.waitKey(0)  # Wait for a key press to close the window
+cv2.destroyAllWindows()
