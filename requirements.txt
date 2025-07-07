@@ -1,0 +1,26 @@
+# Base Packages
+numpy==1.24.4
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+python-dateutil==2.8.2
+
+# Machine Learning & Computer Vision
+ultralytics==8.0.196
+torch==2.1.0+cu118  # Use appropriate CUDA version
+torchvision==0.16.0+cu118
+deep-sort-realtime==1.3.2
+scipy==1.11.3
+
+# Utilities
+tqdm==4.66.1
+pyyaml==6.0.1
+matplotlib==3.8.0  # For optional analytics plots
+pandas==2.1.1  # For optional data analysis
+
+# Web Interface (Optional)
+flask==3.0.0  # For web dashboard
+flask-socketio==5.3.6  # For real-time updates
+
+# Documentation (Optional)
+mkdocs==1.5.2  # For project documentation
+mkdocs-material==9.4.1
