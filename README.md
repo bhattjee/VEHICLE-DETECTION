@@ -33,7 +33,7 @@ A real-time vehicle detection, tracking, and analytics system powered by YOLOv8 
 - FFmpeg (For video processing)
 
 ### Setup
-```bash
+
 # Clone the repository
 git clone : https://github.com/bhattjee/VEHICLE-DETECTION.git
 cd VEHICLE-DETECTION
