@@ -57,8 +57,12 @@ Parameter	Default	Description
 --show	False	Show real-time display
 
 🎥 Demonstration
-<div align="center"> <img src="https://i.ibb.co/rRWjFTmV/Screenshot-2025-07-07-163403.png" alt="Live Detection"><p><em>Real-time vehicle detection and counting demonstration</em></p> </div>
+<div align="center">
+  <img src="https://i.ibb.co/rRWjFTmV/Screenshot-2025-07-07-163403.png" alt="Live Detection"><p><em>Real-time vehicle detection and counting demonstration</em></p>
+</div>
+
 🤝 Contributing
+
 Fork the project
 
 Create your feature branch (git checkout -b feature/VEHICLE-DETECTION)
