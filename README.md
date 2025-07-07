@@ -7,8 +7,8 @@ A real-time vehicle detection, tracking, and analytics system powered by YOLOv8 
 ## 🌟 Features
 
 <div align="center">
-  <img src="[https://via.placeholder.com/400x225/4A5568/FFFFFF?text=Detection+Demo](https://i.ibb.co/0yrh7fBS/Screenshot-2.png)" alt="Detection Demo" width="45%">
-  <img src="[https://via.placeholder.com/400x225/4A5568/FFFFFF?text=Counting+Demo](https://i.ibb.co/rRWjFTmV/Screenshot-2025-07-07-163403.png)" alt="Counting Demo" width="45%">
+  <img src="https://i.ibb.co/0yrh7fBS/Screenshot-2.png" alt="Detection Demo" width="45%">
+  <img src="https://i.ibb.co/rRWjFTmV/Screenshot-2025-07-07-163403.png" alt="Counting Demo" width="45%">
 </div>
 
 - **Accurate Vehicle Detection** (Cars, Trucks, Buses, Motorcycles)
