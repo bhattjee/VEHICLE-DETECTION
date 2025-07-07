@@ -1,7 +1,5 @@
 # 🚗 Smart Traffic Analyzer 🚦
 
-![Project Banner](https://via.placeholder.com/800x200/2D3748/FFFFFF?text=Vehicle_Detection) <!-- Replace with actual banner -->
-
 A real-time vehicle detection, tracking, and analytics system powered by YOLOv8 and DeepSORT for intelligent traffic monitoring.
 
 ## 🌟 Features
@@ -46,7 +44,7 @@ pip install -r requirements.txt
 # Download YOLOv8 weights (automatically done on first run)
 
 🚀 Usage
-Basic Command : python imgcounting.py --input sample.mp4 --output results.avi
+Basic Command : python imgcounting.py --cardemo1.mp4 --output results.avi
 
 ### Configuration Options
 
@@ -59,7 +57,7 @@ Parameter	Default	Description
 --show	False	Show real-time display
 
 🎥 Demonstration
-<div align="center"> <img src="https://via.placeholder.com/600x338/4A5568/FFFFFF?text=Live+Detection+GIF" alt="Live Detection"> <p><em>Real-time vehicle detection and counting demonstration</em></p> </div>
+<div align="center"> <img src="https://i.ibb.co/rRWjFTmV/Screenshot-2025-07-07-163403.png" alt="Live Detection"><p><em>Real-time vehicle detection and counting demonstration</em></p> </div>
 🤝 Contributing
 Fork the project
 
