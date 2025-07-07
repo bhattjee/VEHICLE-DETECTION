@@ -7,8 +7,8 @@ A real-time vehicle detection, tracking, and analytics system powered by YOLOv8 
 ## 🌟 Features
 
 <div align="center">
-  <img src="https://i.ibb.co/0yrh7fBS/Screenshot-2.png" alt="Detection Demo" width="45%">
   <img src="https://i.ibb.co/rRWjFTmV/Screenshot-2025-07-07-163403.png" alt="Counting Demo" width="45%">
+  <img src="https://i.ibb.co/0yrh7fBS/Screenshot-2.png" alt="Detection Demo" width="45%">
 </div>
 
 - **Accurate Vehicle Detection** (Cars, Trucks, Buses, Motorcycles)
@@ -37,8 +37,8 @@ A real-time vehicle detection, tracking, and analytics system powered by YOLOv8 
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/smart-traffic-analyzer.git
-cd smart-traffic-analyzer
+git clone : https://github.com/bhattjee/VEHICLE-DETECTION.git
+cd VEHICLE-DETECTION
 
 # Install dependencies
 pip install -r requirements.txt
@@ -63,11 +63,9 @@ Parameter	Default	Description
 🤝 Contributing
 Fork the project
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
-
+Create your feature branch (git checkout -b feature/VEHICLE-DETECTION)
 Commit your changes (git commit -m 'Add some amazing feature')
-
-Push to the branch (git push origin feature/AmazingFeature)
+Push to the branch (git push origin feature/VEHICLE-DETECTION)
 
 Open a Pull Request
 
@@ -76,4 +74,4 @@ Distributed under the MIT License. See LICENSE for more information.
 
 📧 Contact
 Jeet Bhatt - echolima1323@gmail.com
-Project Link: https://github.com/bhattjee/VEHICLE-DETECTION
+Project Link: https://github.com/bhattjee/VEHICLE-DETECTION/
