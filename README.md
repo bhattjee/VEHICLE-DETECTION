@@ -1,8 +1,8 @@
-# 🚗 Vehicle Detection & Face Recognition System
+# Vehicle Detection & Face Recognition System
 
 A comprehensive computer vision system featuring real-time vehicle detection, tracking, and analytics alongside advanced face recognition capabilities. Built with state-of-the-art deep learning models including YOLOv8, DeepSORT, and custom feature extraction algorithms.
 
-## 🌟 Features
+## Features
 
 ### Vehicle Detection & Analytics
 - **Accurate Multi-Class Detection** - Cars, trucks, buses, motorcycles, and trains
@@ -23,7 +23,7 @@ A comprehensive computer vision system featuring real-time vehicle detection, tr
 - **Persistent Training Data** - Save and load face encodings with automatic scaling
 - **Real-Time Recognition** - Live camera feed with confidence scores
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.8-orange?logo=opencv)
@@ -33,7 +33,7 @@ A comprehensive computer vision system featuring real-time vehicle detection, tr
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-orange?logo=scikit-learn)
 ![NumPy](https://img.shields.io/badge/NumPy-1.24-yellow?logo=numpy)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 VEHICLE-DETECTION/
@@ -48,7 +48,7 @@ VEHICLE-DETECTION/
 └── README.md                         # This file
 ```
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -72,7 +72,7 @@ VEHICLE-DETECTION/
    - The weights will be automatically downloaded on first run
    - Alternatively, download manually from [Ultralytics](https://github.com/ultralytics/ultralytics)
 
-## 🚀 Usage
+## Usage
 
 ### Vehicle Detection & Counting
 
@@ -130,7 +130,7 @@ For simple face detection without recognition:
 python facedetection.py
 ```
 
-## 📊 Output Data
+## Output Data
 
 ### Vehicle Detection
 The system generates JSON files containing:
@@ -148,14 +148,14 @@ Training data is persisted in:
 - `face_names.json` - Name mappings and counters
 - `face_training_data/person_*/` - Sample images
 
-## 🎥 Demonstration
+## Demonstration
 
 <div align="center">
   <img src="https://i.ibb.co/rRWjFTmV/Screenshot-2025-07-07-163403.png" alt="Vehicle Detection" width="45%">
   <img src="https://i.ibb.co/0yrh7fBS/Screenshot-2.png" alt="Face Recognition" width="45%">
 </div>
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -177,7 +177,7 @@ Training data is persisted in:
 - Reduce frame resolution in configuration
 - Enable GPU acceleration with CUDA-compatible PyTorch
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -187,17 +187,17 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📧 Contact
+## Contact
 
-**Jeet Bhatt** - echolima1323@gmail.com
+**Jeet Bhatt** - jeetbhatt1323@gmail.com
 
 **Project Link:** https://github.com/bhattjee/VEHICLE-DETECTION/
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics) for YOLOv8
 - [DeepSORT](https://github.com/ZQPei/deep_sort_pytorch) for tracking algorithms
